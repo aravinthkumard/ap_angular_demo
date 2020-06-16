@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="tile gcp">Angular application - GCP App Engine!!!
+  </div>
+  <div class="tile title">Light Year to Kilometer Converter</div>
+  <div class="tile">
+    <p>Light Year</p>
+    <input type="number" [(ngModel)] ="pounds" class="poundClass"/>
+  </div>
+  <div class="tile">
+    <p>Kilometer</p>
+    <input readonly value="{{ pounds | pound2kg}}" class="kgClass"/>
+  </div>
+</div>

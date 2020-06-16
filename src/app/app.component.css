@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 100%;
+  }
+
+  .tile {
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    background-color: #63666b;
+  }
+
+  .title {
+    background-color: #0366fc;
+    font-size: 20px;
+  }
+
+  .gcp {
+    background-color: #0c067d;
+    font-size: 30px;
+  }
+
+
+  input{
+    width: 50%;
+    height: 30%;
+    text-align: center;
+  }
+
+  p{
+    font-size: 20px;
+  }
